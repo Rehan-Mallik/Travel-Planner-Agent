@@ -18,9 +18,36 @@ An AI-driven travel assistant designed to streamline trip planning using IBM Wat
 
 ---
 
-## 🔧 Setup Instructions
 
-### 1. Clone the Repository
+---
+
+
+---
+
+## 🛠️ How to Use
+
+### 1. 📥 Clone the Repository
+
 ```bash
-git clone https://github.com/Rehan-Mallik/Travel-Planner-Agent.git
+git clone https://github.com/your-username/Travel-Planner-Agent.git
 cd Travel-Planner-Agent
+
+## 2. Set Up a Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+## 3. Install Dependencies
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+Or manually install the basic required packages:
+
+pip install pandas numpy openai ipywidgets
+
+### 4. 📓 Run the Jupyter Notebook
+
+jupyter notebook Travel-Planner-Agent.ipynb
+
+//Note : Run this Entire code on Jupyter Notebook install all the dependencies as well create the Api Key through IBM Cloud to run and deploy or Manually create the Api Key from other sources //
